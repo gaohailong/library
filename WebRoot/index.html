@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="shortcut icon" href="${pageContext.request.contextPath }/assets/img/favicon.ico" type="image/x-icon" />
+	<meta name="description" content="3 styles with inline editable feature" />
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" href="assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+</head>
+<!--[if !IE]> -->
+	<script src="assets/js/jquery.2.1.1.min.js"></script>
+<!-- <![endif]-->
+
+<!--[if IE]>
+	<script src="assets/js/jquery.1.11.1.min.js"></script>
+<![endif]-->
+<style type="text/css">
+	.link_to {
+		height: 300px;
+	}
+	.page_ul li {
+		width: 211px;
+		height: 278px;
+		font-size: 18px;
+		text-align: center;
+		border: 1px solid #77f;
+		border-radius: 5px;
+		margin: auto;
+		margin-top: 40px;
+		transition: .3s;
+		list-style: none;
+	}
+	.page_ul li:hover {
+		box-shadow: 0px 0px 10px #000;
+		font-size: 16px;
+	}
+	.page_ul li a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+</style>
+<body class="blur-login" style="font-family: 'Microsoft Yahei'">
+<img src="assets/img/2.png" class="img-responsive col-xs-offset-4" style="margin: auto;margin-top: 40px">
+	<div class="col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2" style="">
+		<ul class="page_ul" style="width: 845px;margin: auto;">
+			<!-- <li>
+				<a href="../housemanager" class=" radius-4">
+					<br> <br>
+					<i class="glyphicon glyphicon-home ace-icon fa fa-cog bigger-230" style="color: #fff;"></i>
+					<br> <br> <br>
+				房屋土地资产管理系统
+				</a>
+			</li> -->
+			<li>
+				<a href="../LibrarySystem/servlet/LoginUIServlet" class=" radius-4">
+					<br> <br>
+					<i class="glyphicon glyphicon-list-alt ace-icon fa fa-cog bigger-230" style="color: #fff;"></i>
+					<br> <br> <br>
+					进入小型图书馆管理系统
+				</a>
+			</li>
+			<!--<li>
+				<a href="../tzmanager" class=" radius-4">
+					<br> <br>
+					<i class="glyphicon glyphicon-book ace-icon fa fa-cog bigger-230" style="color: #fff;"></i>
+					<br> <br> <br>
+					台账管理系统
+					</a>
+			</li>-->
+		</ul>
+	</div>
+		<div class="footer">
+		<div class="footer-inner">
+			<div class="footer-content">
+				<span class="bigger-100">
+					<span class="blue bolder" style="margin-right: 20px;">
+						<img src="assets/img/2.png" style="width: 23px;margin-top: -3px; margin-right: 4px;">
+						课程设计
+					</span>
+					<span style="color: #fff;">系统首页</span>
+				</span>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$('.blur-login div li').eq(0).hover(function(){
+				$(this).addClass('btn-info');
+			},function(){
+				$(this).removeClass('btn-info');
+			});
+			$('.blur-login div li').eq(1).hover(function(){
+				$(this).addClass('btn-purple');
+			},function(){
+				$(this).removeClass('btn-purple');
+			});
+			$('.blur-login div li').eq(2).hover(function(){
+				$(this).addClass('btn-primary');
+			},function(){
+				$(this).removeClass('btn-primary');
+			});
+			//ie8
+			if (!$.support.leadingWhitespace || !!window["performance"]) {
+				$('.blur-login div li').on('mouseover',function(){
+					$(this).animate({
+						fontSize: '16px'},
+					150);
+				});
+				$('.blur-login div li').on('mouseleave',function(){
+					$(this).animate({
+						fontSize: '18px'},
+						50);
+				});
+			}
+		});
+	</script>
+</body>
+</html>

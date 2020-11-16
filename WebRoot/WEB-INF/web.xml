@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns="http://java.sun.com/xml/ns/javaee" 
+		xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+		id="WebApp_ID" version="3.0">
+  <display-name>LibrarySystem</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginUIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.LoginUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterUIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.RegisterUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cbf.web.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>cbf.web.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainUIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.MainUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchList</servlet-name>
+    <servlet-class>cbf.web.controller.SearchList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchListServlet</servlet-name>
+    <servlet-class>cbf.web.controller.SearchListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookChaKanServlet</servlet-name>
+    <servlet-class>cbf.web.controller.BookChaKanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookModifyServlet</servlet-name>
+    <servlet-class>cbf.web.controller.BookModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookModifyUIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.BookModifyUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookDeleteServlet</servlet-name>
+    <servlet-class>cbf.web.controller.BookDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowUIList</servlet-name>
+    <servlet-class>cbf.web.UI.BorrowUIList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowUIListServlet</servlet-name>
+    <servlet-class>cbf.web.UI.BorrowUIListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowChaKanServlet</servlet-name>
+    <servlet-class>cbf.web.controller.BorrowChaKanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddNewBookUIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.AddNewBookUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddNewBookServlet</servlet-name>
+    <servlet-class>cbf.web.controller.AddNewBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDataUIListServlet</servlet-name>
+    <servlet-class>cbf.web.UI.UserDataUIListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserChaKanServlet</servlet-name>
+    <servlet-class>cbf.web.controller.UserChaKanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserModifyUIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.UserModifyUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserModifyServlet</servlet-name>
+    <servlet-class>cbf.web.controller.UserModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonDataUIservlet</servlet-name>
+    <servlet-class>cbf.web.UI.PersonDataUIservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginOutUIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.LoginOutUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonModifyServlet</servlet-name>
+    <servlet-class>cbf.web.controller.PersonModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonPwdModifyServlet</servlet-name>
+    <servlet-class>cbf.web.controller.PersonPwdModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerMainUIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.ManagerMainUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerBorrowUIListServlet</servlet-name>
+    <servlet-class>cbf.web.UI.ManagerBorrowUIListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Borrow_WS_UIListServlet</servlet-name>
+    <servlet-class>cbf.web.UI.Borrow_WS_UIListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Main_WS_UIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.Main_WS_UIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowFunctionServlet</servlet-name>
+    <servlet-class>cbf.web.controller.BorrowFunctionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReturnFunctionServlet</servlet-name>
+    <servlet-class>cbf.web.controller.ReturnFunctionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Borrow_WSAll_UIListServlet</servlet-name>
+    <servlet-class>cbf.web.UI.Borrow_WSAll_UIListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReturnFunctionServlet_1</servlet-name>
+    <servlet-class>cbf.web.controller.ReturnFunctionServlet_1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowFunctionServlet_1</servlet-name>
+    <servlet-class>cbf.web.controller.BorrowFunctionServlet_1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDataAddUIServlet</servlet-name>
+    <servlet-class>cbf.web.UI.UserDataAddUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDadaAddServlet</servlet-name>
+    <servlet-class>cbf.web.controller.UserDadaAddServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginUIServlet</servlet-name>
+    <url-pattern>/servlet/LoginUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterUIServlet</servlet-name>
+    <url-pattern>/servlet/RegisterUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainUIServlet</servlet-name>
+    <url-pattern>/servlet/MainUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchListServlet</servlet-name>
+    <url-pattern>/servlet/SearchListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookChaKanServlet</servlet-name>
+    <url-pattern>/servlet/BookChaKanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookModifyServlet</servlet-name>
+    <url-pattern>/servlet/BookModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookModifyUIServlet</servlet-name>
+    <url-pattern>/servlet/BookModifyUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookDeleteServlet</servlet-name>
+    <url-pattern>/servlet/BookDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowUIListServlet</servlet-name>
+    <url-pattern>/servlet/BorrowUIListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowChaKanServlet</servlet-name>
+    <url-pattern>/servlet/BorrowChaKanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewBookUIServlet</servlet-name>
+    <url-pattern>/servlet/AddNewBookUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewBookServlet</servlet-name>
+    <url-pattern>/servlet/AddNewBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDataUIListServlet</servlet-name>
+    <url-pattern>/servlet/UserDataUIListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserChaKanServlet</servlet-name>
+    <url-pattern>/servlet/UserChaKanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserModifyUIServlet</servlet-name>
+    <url-pattern>/servlet/UserModifyUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserModifyServlet</servlet-name>
+    <url-pattern>/servlet/UserModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonDataUIservlet</servlet-name>
+    <url-pattern>/servlet/PersonDataUIservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginOutUIServlet</servlet-name>
+    <url-pattern>/servlet/LoginOutUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonModifyServlet</servlet-name>
+    <url-pattern>/servlet/PersonModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonPwdModifyServlet</servlet-name>
+    <url-pattern>/servlet/PersonPwdModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Borrow_WS_UIListServlet</servlet-name>
+    <url-pattern>/servlet/Borrow_WS_UIListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Main_WS_UIServlet</servlet-name>
+    <url-pattern>/servlet/Main_WS_UIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowFunctionServlet</servlet-name>
+    <url-pattern>/servlet/BorrowFunctionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReturnFunctionServlet</servlet-name>
+    <url-pattern>/servlet/ReturnFunctionServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ReturnFunctionServlet_1</servlet-name>
+    <url-pattern>/servlet/ReturnFunctionServlet_1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Borrow_WSAll_UIListServlet</servlet-name>
+    <url-pattern>/servlet/Borrow_WSAll_UIListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowFunctionServlet_1</servlet-name>
+    <url-pattern>/servlet/BorrowFunctionServlet_1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDataAddUIServlet</servlet-name>
+    <url-pattern>/servlet/UserDataAddUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDadaAddServlet</servlet-name>
+    <url-pattern>/servlet/UserDadaAddServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
